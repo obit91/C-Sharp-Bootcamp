@@ -22,7 +22,7 @@ namespace C_Sharp_Bootcamp.ObjectDemos
 
         private void PrintA()
         {
-            Console.WriteLine(a);
+            Console.WriteLine($"The value of a is: {a}");
         }
     }
 }
