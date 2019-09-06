@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace C_Sharp_Bootcamp.Hello_World
+namespace C_Sharp_Bootcamp.HelloWorlds
 {
-    class Program
+    class HelloWorld
     {
-        static void Main(string[] args)
+        static internal void InnerMain()
         {
             Console.WriteLine("Hello World!");
         }
