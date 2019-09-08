@@ -5,6 +5,7 @@ using System.Text;
 //inner project namespaces
 using C_Sharp_Bootcamp.HelloWorlds;
 using C_Sharp_Bootcamp.ObjectDemos;
+using C_Sharp_Bootcamp.Examples;
 
 namespace C_Sharp_Bootcamp
 {
@@ -17,6 +18,9 @@ namespace C_Sharp_Bootcamp
             // ObjectDemo.StaticInnerMain();
             // ObjectDemo objectDemo = new ObjectDemo();
             // objectDemo.InnerMain();
+
+            RefExample.InternalMain();
+
         }
 
     }
