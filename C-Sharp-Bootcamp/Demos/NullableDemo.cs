@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace C_Sharp_Bootcamp.Demos
+namespace C_Sharp_Bootcamp.Demos.Nullable
 {
     class NullableDemo
     {
