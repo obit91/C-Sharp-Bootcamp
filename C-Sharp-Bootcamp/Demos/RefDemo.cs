@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace C_Sharp_Bootcamp.Examples
+namespace C_Sharp_Bootcamp.Demos
 {
 
     enum Color { Green, Red, Yellow, Blue };
@@ -14,7 +14,7 @@ namespace C_Sharp_Bootcamp.Examples
             this.color = color;
         }
     }
-    class RefExample
+    class RefDemo
     {
         private static void ChangeColor(Pen pen)
         {
