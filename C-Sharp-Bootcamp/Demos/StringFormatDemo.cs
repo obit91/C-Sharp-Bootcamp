@@ -14,7 +14,7 @@ namespace C_Sharp_Bootcamp.Demos
             Console.WriteLine("Message: {0}", message);
 
             //formatting method to convert a value
-            DateTime waiting = new DateTime(2012, 10, 10, 17, 58, 1);
+            DateTime waiting = new DateTime(2019, 9, 14, 21, 30, 0);
             string chat = String.Format("Message sent at {0:t} on {0:D}", waiting);
             Console.WriteLine("Message: {0}", chat);
         }

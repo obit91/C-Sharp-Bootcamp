@@ -6,11 +6,11 @@ namespace C_Sharp_Bootcamp.Demos
 {
 
     /**
-     * Main differences between a structures and a classes:
+     * Main differences between structures and classes:
      * - Classes are reference type whilst structs are value type.
      * - Structures do not support inheritance.
      * - Structures have an auto-generated default constructor.
-     * - Structures can be assigned without the New operator,  howerver they will not be accessible until all fields have been set.
+     * - Structures can be assigned without the New operator,  however they will not be accessible until all fields have been set.
      */
 
     struct Book
