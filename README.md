@@ -31,7 +31,15 @@ Main differences between structures and classes:
 * Initialization lists are supported: public ChildClass(double l, double w) : base(l, w) { ... }
 
 ### Static Polymorphism
-A term used to describe overloading functions.
+A term used to describe overloading functions and operators.
+
+Operator overloading technique:
+* Unary overloading format: public static return_type operator op (Type t).
+* Binary overloading format: public static return_type operator op (Type1 t1, Type2 t2)  
+
+Operator overloading examples:
+* Unary: public static Item operator+ (Item itemA)
+* Binary: public static Item operator+ (Item lhs, Item rhs) { ... }
 
 ### Dynamic Polymorphism
 A term used to describe polymorphism within classes.
