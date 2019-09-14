@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace C_Sharp_Bootcamp.ObjectDemos
+namespace C_Sharp_Bootcamp.Demos
 {
     class ObjectDemo
     {
@@ -28,7 +28,7 @@ namespace C_Sharp_Bootcamp.ObjectDemos
 
         private void PrintA()
         {
-            Console.WriteLine("The value of a is: ", a);
+            Console.WriteLine("The value of a is: {0}", a);
         }
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 //inner project namespaces
 using C_Sharp_Bootcamp.HelloWorlds;
-using C_Sharp_Bootcamp.ObjectDemos;
+using C_Sharp_Bootcamp.Demos;
 using C_Sharp_Bootcamp.Examples;
 
 namespace C_Sharp_Bootcamp
@@ -13,7 +13,8 @@ namespace C_Sharp_Bootcamp
     {
         static void Main(string[] args)
         {
-
+            ObjectDemo demo = new ObjectDemo();
+            demo.InnerMain();
         }
 
     }
