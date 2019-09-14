@@ -13,7 +13,7 @@ namespace C_Sharp_Bootcamp
     {
         static void Main(string[] args)
         {
-            StringFormatDemo.InnerMain();
+            StructDemo.InnerMain();
         }
 
     }
