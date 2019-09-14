@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace C_Sharp_Bootcamp.Demos.DynamicPoly.Abstract
+namespace C_Sharp_Bootcamp.Demos.Polymorphism.DynamicPoly.Abstract
 {
     abstract class Shape
     {
@@ -36,7 +36,7 @@ namespace C_Sharp_Bootcamp.Demos.DynamicPoly.Abstract
     }
 }
 
-namespace C_Sharp_Bootcamp.Demos.DynamicPoly.Virtual
+namespace C_Sharp_Bootcamp.Demos.Polymorphism.DynamicPoly.Virtual
 {
     class Shape
     {
