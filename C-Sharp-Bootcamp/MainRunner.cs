@@ -13,13 +13,6 @@ namespace C_Sharp_Bootcamp
     {
         static void Main(string[] args)
         {
-            // HelloWorld.InnerMain();
-
-            // ObjectDemo.StaticInnerMain();
-            // ObjectDemo objectDemo = new ObjectDemo();
-            // objectDemo.InnerMain();
-
-            RefExample.InternalMain();
 
         }
 

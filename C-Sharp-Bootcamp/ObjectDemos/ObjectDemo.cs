@@ -11,18 +11,24 @@ namespace C_Sharp_Bootcamp.ObjectDemos
         static internal void StaticInnerMain()
         {
             ObjectDemo demo = new ObjectDemo();
-            demo.PrintA();
+            demo.PrintAWithInterpolation();
         }
 
         internal void InnerMain()
         {
             ObjectDemo demo = new ObjectDemo();
+            demo.PrintAWithInterpolation();
             demo.PrintA();
+        }
+
+        private void PrintAWithInterpolation()
+        {
+            Console.WriteLine($"The value of a is: {a}");
         }
 
         private void PrintA()
         {
-            Console.WriteLine($"The value of a is: {a}");
+            Console.WriteLine("The value of a is: ", a);
         }
     }
 }
