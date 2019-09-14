@@ -30,5 +30,17 @@ Main differences between structures and classes:
 * There can only be one parent class, however multiple interfaces can be used as parents.
 * Initialization lists are supported: public ChildClass(double l, double w) : base(l, w) { ... }
 
+### Static Polymorphism
+A term used to describe overloading functions.
+
+### Dynamic Polymorphism
+A term used to describe polymorphism within classes.
+* Methods can be overriden only if the parent class's method is either: abstract, virtual or overriden.
+* Abstract methods must be implemented, similar to Java.
+* Parent virtual methods withhold an implementation, which <b>can</b> be overriden.
+* The override modifier must be used whenever overriding.
+
 ## Useful Resources
-Basic C# tutorial on [Tutorialspoint](https://www.tutorialspoint.com/csharp/).
+Tutorial sites:
+* [Tutorialsponts](https://www.tutorialspoint.com/csharp/)
+* [Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/)
