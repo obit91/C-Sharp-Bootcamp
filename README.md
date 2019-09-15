@@ -26,7 +26,7 @@ Main differences between structures and classes:
 
 ### Inheritance
 * Parent constructor initialization from derived class: super() <-> base()
-* Destructors cann be defined similar to constructors, along with a prefix ~ before the method name.
+* Destructors can be defined similar to constructors, along with a prefix ~ before the method name.
 * There can only be one parent class, however multiple interfaces can be used as parents.
 * Initialization lists are supported: public ChildClass(double l, double w) : base(l, w) { ... }
 
