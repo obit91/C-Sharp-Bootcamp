@@ -49,7 +49,7 @@ A term used to describe polymorphism within classes.
 * The override modifier must be used whenever overriding.
 
 ### Using Statement
-The using statement can be used in order to temporarily allocate a resource, for example:
+The using statement can be used in order to temporarily allocate a resource (similar to try in new Java versions).
 * using (TextWriter w = File.CreateText("test.txt")) { ... }
 
 ### Exceptions
