@@ -50,5 +50,5 @@ A term used to describe polymorphism within classes.
 
 ## Useful Resources
 Tutorial sites:
-* [Tutorialsponts](https://www.tutorialspoint.com/csharp/)
+* [Tutorialspoint](https://www.tutorialspoint.com/csharp/)
 * [Microsoft](https://docs.microsoft.com/en-us/dotnet/csharp/)
