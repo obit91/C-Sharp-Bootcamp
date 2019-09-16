@@ -1,0 +1,3 @@
+First line from stream
+Third line from stream
+Fourth line appended
